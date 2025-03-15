@@ -44,6 +44,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         title: 'Elements',
         filter: key => ['leftSidebar',
                         'rightSidebar',
+                        'rightSidebarExceptSearch',
                         'bothSidebars',
                         'trending',
                         'brokenSpacer',

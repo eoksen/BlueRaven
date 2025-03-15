@@ -43,6 +43,13 @@ const TWITTER_MODS = {
         'div[class*="css-175oi2r r-aqfbo4 r-1pi2tsx r-1xcajam r-1d2f490 r-1p0dtai r-1d2f490 r-u8s1d r-zchlnj r-ipm5af"]'
       ]
     },
+    rightSidebarExceptSearch: {
+      enabled: false,
+      description: "Hide Right Sidebar Except Search",
+      selectors: [
+        'div.css-175oi2r.r-le4f52.r-19urhcx > div:not(.r-1awozwy.r-aqfbo4.r-14lw9ot.r-18u37iz.r-uxrrfj.r-dr54s0.r-17j37da.r-1xcajam.r-ipm5af.r-136ojw6.r-1hycxz)'
+      ]
+    },
     bothSidebars: {
       enabled: false,
       description: "Hide Both Sidebars <keyboard ninja>",

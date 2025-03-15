@@ -47,7 +47,7 @@ const TWITTER_MODS = {
       enabled: false,
       description: "Hide Right Sidebar Except Search",
       selectors: [
-        'div.css-175oi2r.r-le4f52.r-19urhcx > div:not(.r-1awozwy.r-aqfbo4.r-14lw9ot.r-18u37iz.r-uxrrfj.r-dr54s0.r-17j37da.r-1xcajam.r-ipm5af.r-136ojw6.r-1hycxz)'
+        'div[class="css-175oi2r r-le4f52 r-19urhcx"] > div:not(:nth-child(1))'
       ]
     },
     bothSidebars: {
